@@ -45,3 +45,30 @@ console.log(tertiaryColors);
 // Neste caso, estamos verificando se todas as cores neutras são iguais a 'Brown'.
 const neutralColors = ['White', 'Grey', 'Brown'].every(element => element === 'Brown');
 console.log(neutralColors);
+
+// A variável carsOne é declarada como um array contendo marcas de carros. Em seguida, o método .sort() é chamado para ordenar os elementos do array em ordem alfabética.
+const carsOne = ['Kia', 'Ford', 'BMW', 'Mitsubishi', 'Honda', 'Porsche', 'Tesla'].sort();
+
+// O resultado da ordenação, agora armazenado em carsOne, é impresso no console.
+console.log(carsOne);
+
+// A variável carsTwo é declarada como a concatenação de dois arrays, usando o método .concat(). 
+const carsTwo = ['Mercedes-Benz', 'Toyota'].concat(['Volkswagen', 'Hyundai']);
+
+// O resultado da concatenação, agora armazenado em carsTwo, é impresso no console.
+console.log(carsTwo);
+
+// A variável carsThree é declarada como um array que é então revertido usando o método .reverse().
+const carsThree = ['Chevrolet', 'Fiat', 'Jeep', 'Renault', 'Citroën'].reverse();
+
+// O resultado da reversão, agora armazenado em carsThree, é impresso no console.
+console.log(carsThree);
+
+// A variável carsFour é declarada como um array contendo marcas de carros.
+const carsFour = ['Nissan', 'Peugeot', 'Caoa Chery', 'Audi', 'Volvo'];
+
+// O método .includes() é chamado para verificar se o array carsFour inclui 'Land Rover'. O resultado (um valor booleano) é impresso no console.
+console.log(carsFour.includes('Land Rover'));
+
+// O método .includes() é chamado novamente para verificar se o array carsFour inclui 'Audi'. O resultado (um valor booleano) é impresso no console.
+console.log(carsFour.includes('Audi'));
