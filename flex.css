@@ -9,7 +9,25 @@
 .startClass {
     width: 100px; /* Define a largura do bloco como 100px */
     height: 100px; /* Define a altura do bloco como 100px */
-    background-color: #3498db; /* Define a cor de fundo do bloco como um tom de azul */
+    background-color: #7B68EE; /* Define a cor de fundo do bloco como MediumSlateBlue */
+    color: white; /* Define a cor do texto dentro do bloco como branco */
+    display: flex; /* Define este elemento como um contêiner flexível */
+    align-items: center; /* Centraliza verticalmente o conteúdo dentro do bloco */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do bloco */
+}
+
+/* Seleciona o elemento com o ID 'centerId' */
+#centerId {
+    display: flex; /* Define este elemento como um contêiner flexível */
+    justify-content: center; /* Alinha os itens flex ao centro do contêiner */
+    gap: 10px; /* Adiciona um espaço de 10px entre cada item flex */
+}
+
+/* Seleciona todos os elementos com a classe 'centerClass' */
+.centerClass {
+    width: 100px; /* Define a largura do bloco como 100px */
+    height: 100px; /* Define a altura do bloco como 100px */
+    background-color: #9370DB; /* Define a cor de fundo do bloco como MediumPurple */
     color: white; /* Define a cor do texto dentro do bloco como branco */
     display: flex; /* Define este elemento como um contêiner flexível */
     align-items: center; /* Centraliza verticalmente o conteúdo dentro do bloco */
