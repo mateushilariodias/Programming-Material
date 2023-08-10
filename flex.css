@@ -51,3 +51,24 @@
     align-items: center; /* Centraliza verticalmente o conteúdo dentro do bloco */
     justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do bloco */
 }
+
+/* Seleciona o elemento com o ID 'betweenId' */
+#betweenId {
+    display: flex; /* Define este elemento como um contêiner flexível */
+    justify-content: space-between;   /* Alinha os itens flex de forma que:
+    - O primeiro item esteja alinhado ao início do contêiner
+    - O último item esteja alinhado ao final do contêiner
+    - O espaço restante seja distribuído igualmente entre os itens */
+    gap: 10px; /* Adiciona um espaço de 10px entre cada item flex */
+}
+
+/* Seleciona todos os elementos com a classe 'betweenClass' */
+.betweenClass {
+    width: 100px; /* Define a largura do bloco como 100px */
+    height: 100px; /* Define a altura do bloco como 100px */
+    background-color: #4B0082; /* Define a cor de fundo do bloco como Indigo */
+    color: white; /* Define a cor do texto dentro do bloco como branco */
+    display: flex; /* Define este elemento como um contêiner flexível */
+    align-items: center; /* Centraliza verticalmente o conteúdo dentro do bloco */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do bloco */
+}
