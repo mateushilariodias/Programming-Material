@@ -105,3 +105,22 @@
     align-items: center; /* Centraliza verticalmente o conteúdo dentro do bloco */
     justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do bloco */
 }
+
+/* Seleciona o elemento com o ID 'rowId' */
+#rowId {
+    display: flex; /* Define este elemento como um contêiner flexível */
+    flex-direction: row; /* Define a direção principal dos itens flex como horizontal, da esquerda para a direita. */
+    gap: 10px; /* Adiciona um espaço de 10px entre cada item flex */
+}
+
+/* Seleciona todos os elementos com a classe 'rowClass' */
+.rowClass {
+    width: 100px; /* Define a largura do bloco como 100px */
+    height: 100px; /* Define a altura do bloco como 100px */
+    border-radius: 50px;
+    background-color: #00FFFF; /* Define a cor de fundo do bloco como Aqua / Cyan */
+    color: black; /* Define a cor do texto dentro do bloco como branco */
+    display: flex; /* Define este elemento como um contêiner flexível */
+    align-items: center; /* Centraliza verticalmente o conteúdo dentro do bloco */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do bloco */
+}
