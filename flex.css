@@ -137,7 +137,26 @@
     width: 100px; /* Define a largura do bloco como 100px */
     height: 100px; /* Define a altura do bloco como 100px */
     border-radius: 50px;
-    background-color: #00CED1; /* Define a cor de fundo do bloco como ADarkTurquoise */
+    background-color: #00CED1; /* Define a cor de fundo do bloco como DarkTurquoise */
+    color: black; /* Define a cor do texto dentro do bloco como branco */
+    display: flex; /* Define este elemento como um contêiner flexível */
+    align-items: center; /* Centraliza verticalmente o conteúdo dentro do bloco */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do bloco */
+}
+
+/* Seleciona o elemento com o ID 'columnId' */
+#columnId {
+    display: flex; /* Define este elemento como um contêiner flexível */
+    flex-direction: column; /* Define a direção principal dos itens flex como vertical, do topo para a base. */
+    gap: 10px; /* Adiciona um espaço de 10px entre cada item flex */
+}
+
+/* Seleciona todos os elementos com a classe 'columnClass' */
+.columnClass {
+    width: 100px; /* Define a largura do bloco como 100px */
+    height: 100px; /* Define a altura do bloco como 100px */
+    border-radius: 50px;
+    background-color: #40E0D0; /* Define a cor de fundo do bloco como Turquoise */
     color: black; /* Define a cor do texto dentro do bloco como branco */
     display: flex; /* Define este elemento como um contêiner flexível */
     align-items: center; /* Centraliza verticalmente o conteúdo dentro do bloco */
