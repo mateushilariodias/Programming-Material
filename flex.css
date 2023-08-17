@@ -162,3 +162,22 @@
     align-items: center; /* Centraliza verticalmente o conteúdo dentro do bloco */
     justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do bloco */
 }
+
+/* Seleciona o elemento com o ID 'columnReverseId' */
+#columnReverseId {
+    display: flex; /* Define este elemento como um contêiner flexível */
+    flex-direction: column-reverse; /* Define a direção principal dos itens flex como vertical, mas em ordem invertida, da base para o topo. */
+    gap: 10px; /* Adiciona um espaço de 10px entre cada item flex */
+}
+
+/* Seleciona todos os elementos com a classe 'columnReverseClass' */
+.columnReverseClass {
+    width: 100px; /* Define a largura do bloco como 100px */
+    height: 100px; /* Define a altura do bloco como 100px */
+    border-radius: 50px;
+    background-color: #48D1CC; /* Define a cor de fundo do bloco como MediumTurquoise */
+    color: black; /* Define a cor do texto dentro do bloco como branco */
+    display: flex; /* Define este elemento como um contêiner flexível */
+    align-items: center; /* Centraliza verticalmente o conteúdo dentro do bloco */
+    justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do bloco */
+}
