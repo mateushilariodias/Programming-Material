@@ -18,3 +18,23 @@ console.log('Mateus'.startsWith('M'));
 // Utiliza o método 'endsWith()' para verificar se a string 'Mateus' termina com o caractere 's'.
 // Retorna 'true' se for o caso, e 'false' caso contrário. O resultado esperado aqui é 'true'.
 console.log('Mateus'.endsWith('s'));
+
+// Utiliza o método 'includes()' para verificar se a string 'Rafael' contém o caractere 'e'.
+// Retorna 'true' se for o caso, e 'false' caso contrário.
+// O resultado esperado aqui é 'true'.
+console.log('Rafael'.includes('e'));
+
+// Utiliza o método 'indexOf()' para obter o índice da primeira ocorrência do caractere 'a' na string 'Rafael'.
+// Retorna o índice da primeira ocorrência, ou -1 se o caractere não for encontrado.
+// O resultado esperado aqui é '1', já que a primeira ocorrência do 'a' está na segunda posição (índice 1).
+console.log('Rafael'.indexOf('a'));
+
+// Utiliza o método 'lastIndexOf()' para obter o índice da última ocorrência do caractere 'a' na string 'Rafael'.
+// Retorna o índice da última ocorrência, ou -1 se o caractere não for encontrado.
+// O resultado esperado aqui é '3', já que a última ocorrência do 'a' está na quarta posição (índice 3).
+console.log('Rafael'.lastIndexOf('a'));
+
+// Utiliza o método 'match()' para encontrar todas as ocorrências de caracteres maiúsculos (expressão regular /[A-Z]/g) na string 'Rafael'.
+// Retorna um array com todos os caracteres que atendem à expressão regular.
+// O resultado esperado aqui é ['R'], já que 'R' é o único caractere maiúsculo na string 'Rafael'.
+console.log('Rafael'.match(/[A-Z]/g));
