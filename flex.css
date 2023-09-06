@@ -181,3 +181,22 @@
     align-items: center; /* Centraliza verticalmente o conteúdo dentro do bloco */
     justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do bloco */
 }
+
+/* Seleciona o elemento com o ID 'alignStretchId' */
+#alignStretchId {
+    display: flex; /* Define este elemento como um contêiner flexível */
+    align-items: baseline; /* Estica os itens flex para ocupar todo o espaço disponível no eixo transversal */
+    gap: 10px; /* Adiciona um espaço de 10px entre cada item flex */
+    height: 120px; /* Definindo uma altura para ver os efeitos de alinhamento */
+    border: 1px solid black; /* Apenas para visualizar o contêiner */
+}
+
+/* Seleciona todos os elementos com a classe 'alignStretchClass' */
+.alignStretchClass { 
+    background-color: #BDB76B; /* Define a cor de fundo do bloco como DarkKhaki */
+    color: black; /* Define a cor do texto dentro do bloco como preto */
+    width: 80px;
+    border: 1px solid red;
+    padding: 10px;
+    box-sizing: border-box;
+}
