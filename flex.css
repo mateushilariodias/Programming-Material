@@ -200,3 +200,45 @@
     padding: 10px;
     box-sizing: border-box;
 }
+
+.container {
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 50px;
+    border: 1px solid red;
+    padding: 10px;
+    text-align: center;
+}
+
+.container.flex-start {
+    display: flex;
+    height: 150px;
+    align-items: flex-start;
+}
+
+.container.flex-end {
+    display: flex;
+    height: 150px;
+    align-items: flex-end;
+}
+
+.container.center {
+    display: flex;
+    height: 150px;
+    align-items: center;
+}
+
+.container.baseline {
+    display: flex;
+    height: 150px;
+    align-items: baseline;
+}
+
+.container.stretch {
+    display: flex;
+    height: 150px;
+    align-items: stretch;
+}
