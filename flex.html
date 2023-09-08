@@ -3,7 +3,8 @@
 
 <head> <!-- Contém metainformações e links para CSS / JS -->
     <meta charset="UTF-8"> <!-- Define o conjunto de caracteres como UTF-8 -->
-    <meta name="viewport" content="wclassth=device-width, initial-scale=1.0"> <!-- Define a viewport para a escala inicial e a largura do dispositivo -->
+    <meta name="viewport" content="wclassth=device-width, initial-scale=1.0">
+    <!-- Define a viewport para a escala inicial e a largura do dispositivo -->
     <link rel="stylesheet" href="flex.css"> <!-- Link para a folha de estilos CSS externa -->
     <title>Flex</title> <!-- Define o título da página web -->
 </head>
@@ -82,37 +83,40 @@
         <div class="columnReverseClass">Bloco 3</div> <!-- Bloco 3 com classe 'columnReverseClass' -->
     </div>
 
-    <!-- Contêiner flexível com ID 'alignStretchId' -->
-    <div id="alignStretchId" style="padding-bottom: 20px;">
-        <div class="alignStretchClass">Bloco 1</div> <!-- Bloco 1 com classe 'alignStretchClass' -->
-        <div class="alignStretchClass">Bloco 2</div> <!-- Bloco 2 com classe 'alignStretchClass' -->
-        <div class="alignStretchClass">Bloco 3</div> <!-- Bloco 3 com classe 'alignStretchClass' -->
+    <!-- Contêiner com alinhamento flex-start. 
+     Os itens possuem diferentes tamanhos de fonte para demonstração. -->
+    <div class="container flex-start">
+        <div class="box" style="font-size: 16px;">1</div>
+        <div class="box" style="font-size: 32px;">2<br />2.5</div>
+        <div class="box" style="font-size: 24px;">3</div>
     </div>
 
-    <div class="container flex-start">
-        <div class="box">1</div>
-        <div class="box">2</div>
-        <div class="box">3</div>
-    </div>
-    
+    <!-- Contêiner com alinhamento flex-end. 
+         Alguns itens têm linhas adicionais de texto para demonstração. -->
     <div class="container flex-end">
-        <div class="box">1</div>
+        <div class="box">1<br />1.5</div>
         <div class="box">2</div>
         <div class="box">3</div>
     </div>
-    
+
+    <!-- Contêiner com alinhamento centralizado. 
+         Um dos itens tem uma linha extra de texto para demonstração. -->
     <div class="container center">
         <div class="box">1</div>
         <div class="box">2</div>
-        <div class="box">3</div>
+        <div class="box">3<br>4</div>
     </div>
-    
+
+    <!-- Contêiner com alinhamento baseline. 
+         Os itens possuem diferentes tamanhos de fonte e diferentes quantidades de texto para demonstração. -->
     <div class="container baseline">
-        <div class="box">Texto<br>Extra</div>
-        <div class="box">Texto</div>
-        <div class="box">T<br>E<br>X<br>T<br>O</div>
+        <div class="box" style="font-size: 16px;">Texto<br>Extra</div>
+        <div class="box" style="font-size: 32px;">Texto</div>
+        <div class="box" style="font-size: 24px;">T<br>E<br>X<br>T<br>O</div>
     </div>
-    
+
+    <!-- Contêiner com alinhamento stretch. 
+         Todos os itens são esticados para preencher a altura do contêiner. -->
     <div class="container stretch">
         <div class="box">1</div>
         <div class="box">2</div>

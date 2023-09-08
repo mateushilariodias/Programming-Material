@@ -182,61 +182,54 @@
     justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do bloco */
 }
 
-/* Seleciona o elemento com o ID 'alignStretchId' */
-#alignStretchId {
-    display: flex; /* Define este elemento como um contêiner flexível */
-    align-items: baseline; /* Estica os itens flex para ocupar todo o espaço disponível no eixo transversal */
-    gap: 10px; /* Adiciona um espaço de 10px entre cada item flex */
-    height: 120px; /* Definindo uma altura para ver os efeitos de alinhamento */
-    border: 1px solid black; /* Apenas para visualizar o contêiner */
-}
-
-/* Seleciona todos os elementos com a classe 'alignStretchClass' */
-.alignStretchClass { 
-    background-color: #BDB76B; /* Define a cor de fundo do bloco como DarkKhaki */
-    color: black; /* Define a cor do texto dentro do bloco como preto */
-    width: 80px;
-    border: 1px solid red;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
+/* Estilo base para todos os contêineres. Define uma borda roxa e uma margem inferior para separação visual. */
 .container {
-    border: 2px solid black;
+    border: 2px solid purple;
     margin-bottom: 20px;
 }
 
+/* Estilo base para todas as caixas. Define largura, borda, padding e alinhamento de texto. */
 .box {
-    width: 50px;
-    border: 1px solid red;
+    width: 70px;
+    border: 1px solid orange;
     padding: 10px;
     text-align: center;
 }
 
+/* Estilos específicos para alinhamento flex-start. 
+   Configura o contêiner para ser um contêiner flexível e alinha os itens ao topo. */
 .container.flex-start {
     display: flex;
     height: 150px;
     align-items: flex-start;
 }
 
+/* Estilos específicos para alinhamento flex-end. 
+   Configura o contêiner para ser um contêiner flexível e alinha os itens na parte inferior. */
 .container.flex-end {
     display: flex;
     height: 150px;
     align-items: flex-end;
 }
 
+/* Estilos específicos para alinhamento centralizado. 
+   Configura o contêiner para ser um contêiner flexível e centraliza os itens verticalmente. */
 .container.center {
     display: flex;
     height: 150px;
     align-items: center;
 }
 
+/* Estilos específicos para alinhamento baseline. 
+   Configura o contêiner para ser um contêiner flexível e alinha os itens pela linha de base do texto. */
 .container.baseline {
     display: flex;
-    height: 150px;
+    height: 180px;
     align-items: baseline;
 }
 
+/* Estilos específicos para alinhamento stretch. 
+   Configura o contêiner para ser um contêiner flexível e estica os itens para preencher a altura do contêiner. */
 .container.stretch {
     display: flex;
     height: 150px;
