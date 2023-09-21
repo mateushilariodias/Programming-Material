@@ -38,3 +38,9 @@ console.log('Rafael'.lastIndexOf('a'));
 // Retorna um array com todos os caracteres que atendem à expressão regular.
 // O resultado esperado aqui é ['R'], já que 'R' é o único caractere maiúsculo na string 'Rafael'.
 console.log('Rafael'.match(/[A-Z]/g));
+
+// Preenche a string "Amor" com "?" à esquerda até que ela tenha um comprimento total de 6 caracteres.
+console.log("Amor".padStart(6, "?"));
+
+// Preenche a string "Anor" com "?" à direita até que ela tenha um comprimento total de 6 caracteres.
+console.log("Anor".padEnd(6, "?"));
