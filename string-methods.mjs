@@ -44,3 +44,13 @@ console.log("Amor".padStart(6, "?"));
 
 // Preenche a string "Anor" com "?" à direita até que ela tenha um comprimento total de 6 caracteres.
 console.log("Anor".padEnd(6, "?"));
+
+// Este comando faz a string "Amor" ser repetida 3 vezes.
+// Portanto, ele imprimirá "AmorAmorAmor" no console.
+console.log("Amor".repeat(3));
+
+// Este comando substitui a substring "mo" na string "Amor" por "a".
+// Portanto, ele imprimirá "Aar" no console.
+console.log("Amor".replace("mo", "a"));
+
+
