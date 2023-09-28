@@ -53,4 +53,17 @@ console.log("Amor".repeat(3));
 // Portanto, ele imprimirá "Aar" no console.
 console.log("Amor".replace("mo", "a"));
 
+// O método `search()` procura por uma correspondência entre uma expressão regular ou uma substring e uma string.
+// Ele retorna a posição da primeira correspondência encontrada.
+// No exemplo abaixo, estamos procurando a letra "o" na palavra "Confuso".
+console.log("Confuso".search("o"));
 
+// O método `slice()` extrai uma seção de uma string e retorna uma nova string.
+// Os parâmetros indicam o índice inicial e final (não incluído) da substring que você deseja extrair.
+// No exemplo abaixo, estamos extraindo os caracteres da posição 1 até (mas não incluindo) a posição 3 da palavra "Confuso", que resultará na substring "on".
+console.log("Confuso".slice(1, 3));
+
+// O método `split()` divide uma string em um array de substrings com base no delimitador fornecido.
+// Se você não fornecer um delimitador, o padrão é dividir em cada caractere.
+// No exemplo abaixo, estamos dividindo a palavra "Confuso" em um array de caracteres.
+console.log("Confuso".split(""));
