@@ -67,3 +67,18 @@ console.log("Confuso".slice(1, 3));
 // Se você não fornecer um delimitador, o padrão é dividir em cada caractere.
 // No exemplo abaixo, estamos dividindo a palavra "Confuso" em um array de caracteres.
 console.log("Confuso".split(""));
+
+// O método `substring()` retorna uma sub-string entre dois índices especificados.
+// O primeiro parâmetro é o índice inicial e o segundo parâmetro é o índice final (não incluído).
+// No exemplo abaixo, estamos pegando os caracteres da posição 2 até (mas não incluindo) a posição 4 da palavra "Confuso", resultando na substring "nf".
+console.log("Confuso".substring(2, 4));
+
+// O método `toLowerCase()` converte todos os caracteres da string para letras minúsculas.
+// Não é necessário passar nenhum parâmetro.
+// No exemplo abaixo, estamos convertendo toda a palavra "Confuso" para minúsculas, resultando em "confuso".
+console.log("Confuso".toLowerCase());
+
+// O método `toUpperCase()` converte todos os caracteres da string para letras maiúsculas.
+// Assim como `toLowerCase()`, este método não requer parâmetros.
+// No exemplo abaixo, estamos convertendo toda a palavra "Confuso" para maiúsculas, resultando em "CONFUSO".
+console.log("Confuso".toUpperCase());
