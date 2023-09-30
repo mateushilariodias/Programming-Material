@@ -82,3 +82,14 @@ console.log("Confuso".toLowerCase());
 // Assim como `toLowerCase()`, este método não requer parâmetros.
 // No exemplo abaixo, estamos convertendo toda a palavra "Confuso" para maiúsculas, resultando em "CONFUSO".
 console.log("Confuso".toUpperCase());
+
+// Remove espaços em branco do início e do final da string "Confuso"
+console.log("Confuso".trim());
+
+// Remove espaços em branco apenas do início da string "Confuso"
+console.log("Confuso".trimStart());
+
+// Remove espaços em branco apenas do final da string "Confuso"
+console.log("Confuso".trimEnd());
+
+ 
