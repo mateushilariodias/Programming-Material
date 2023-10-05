@@ -91,5 +91,3 @@ console.log("Confuso".trimStart());
 
 // Remove espaços em branco apenas do final da string "Confuso"
 console.log("Confuso".trimEnd());
-
- 
