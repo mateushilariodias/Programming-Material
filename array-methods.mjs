@@ -72,3 +72,20 @@ console.log(carsFour.includes('Land Rover'));
 
 // O método .includes() é chamado novamente para verificar se o array carsFour inclui 'Audi'. O resultado (um valor booleano) é impresso no console.
 console.log(carsFour.includes('Audi'));
+
+// Definição de dois arrays: array1 e array2
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+
+// Utiliza o método concat() para combinar array1 e array2 em um novo array chamado newArray
+let newArray = array1.concat(array2);
+console.log(newArray); // Exibe o newArray resultante: [1, 2, 3, 4, 5, 6]
+
+// Utiliza a sintaxe de espalhamento (spread) para combinar array1 e array2 em newArray
+newArray = [...array1, ...array2];
+console.log(newArray); // Novamente, exibe o newArray resultante: [1, 2, 3, 4, 5, 6]
+
+// Utiliza Array.prototype.push.apply para adicionar os elementos de array2 ao final de array1
+// Isso modifica diretamente o array1, acrescentando os elementos de array2 a ele
+Array.prototype.push.apply(array1, array2);
+console.log(array1); // Exibe o array1 modificado: [1, 2, 3, 4, 5, 6]
